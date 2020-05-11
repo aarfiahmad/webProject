@@ -1,0 +1,228 @@
+*{
+     box-sizing: border-box;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     color: #000;
+  
+     
+}
+
+*,*::before,*::after{
+                margin: 0;
+                padding: 0;
+}
+
+*::selection{
+        background:yellow;
+        color: black;
+
+}
+
+/* Typography */
+  p{ font-size: 1em;
+     font-weight: 500;
+     line-height: 28px;
+     color: #333;
+}
+
+h2{
+       font-size: 2.5em;
+       font-weight: 700;
+       line-height: 1.5em;
+}
+h1{line-height:1.5em;padding: 4px; margin-bottom: 15px;background-image: linear-gradient(180deg,rgb(214, 214, 80),rgb(223, 226, 42));}
+
+h3{
+       font-size: 2em;
+       font-weight: 300;
+       line-height: 1.5em;
+       font-family: cursive;
+}
+.header{
+          width: 100%;
+          text-align: center;
+          box-shadow: 0  0px  10px rgba(0, 0, 0, 0.5);
+          margin: 0;
+}
+
+.btn{
+        position: relative;
+        font-weight: 700;
+        font-size: 1.5em;
+        border: 1px solid rgb(245, 245, 245);
+        border-radius: 25px;
+        color: white;
+        box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+        width: 40%;
+        text-align: center;
+        cursor: pointer;
+        letter-spacing: 2px;
+     
+}
+
+.btn-2{
+         background-image: linear-gradient(-180deg,rgb(9, 241, 9),rgb(11, 219, 56));
+}
+
+
+.btn-3{
+      background-image: linear-gradient(-180deg,rgb(245, 28, 28),rgb(172, 49, 45));
+}
+
+.btn-4{
+      background-image: linear-gradient(180deg,rgb(241, 5, 230),rgb(253, 4, 220));
+}
+
+.btn-5{
+      background-image: linear-gradient(180deg,rgb(92, 2, 238),rgb(68, 41, 221));
+      
+}
+
+.btn::before{
+       position: absolute;
+       content: ' ';
+       left: 0;
+       top: 0;
+       height: 100%;
+       width: 30px;
+       border-top-left-radius: 25px;
+       border-bottom-left-radius: 25px;
+       background: rgba(41, 41, 41, 0.486);
+       transition: .3s linear all;
+     
+}
+
+.btn:hover::before{
+              width: 100%;
+              background: rgba(243, 55, 55, 0.308);
+              border-top-right-radius: 25px;
+              border-bottom-right-radius: 25px;
+           
+}
+ .btn-2,.btn-3,.btn-4,.btn-5{ 
+           margin: 70px 5%;
+           padding:15px 20px;
+}
+
+
+ul{
+
+      list-style: none;
+      
+}
+
+ul li{
+      display: inline-block;
+      padding: 40px 20px;
+      
+}
+
+@media (max-width:700px)
+{
+   ul li {padding: 10px ;display: block;}
+}
+
+a  {
+      position: relative;
+}
+
+a::before{
+        position: absolute;
+        content: ' ';
+        bottom: 0;
+        left: 0;
+        height: 2px;
+        width: 20%;
+        background-image: linear-gradient(120deg,rgb(236, 64, 64),rgb(248, 5, 45));
+        transition: .2s linear all;
+}
+
+a:hover::before{
+           width: 100%;
+}
+
+ul li a{
+        text-decoration: none;
+        font-weight: 600;
+        font-size: 20px;
+}
+
+.one-a{
+         color: red;
+}
+.two-a{
+      color: green;
+}
+
+.three-a{
+         color: indigo;
+}
+.four-a{
+       color: orange;
+}
+
+.section-one{
+            display: flex;
+            flex-wrap: wrap;
+            padding: 20px 100px;
+           
+}
+
+.width-one{
+              width:auto;
+              background:rgb(240, 240, 0);
+            
+}
+.width-two{
+          width: 60%;
+          background: rgb(235, 190, 190);
+          padding: 20px;
+}
+
+
+#kevin{
+      transform: scaleX(-1);
+}
+
+
+
+
+.section-two{
+     background-image: linear-gradient(120deg,rgb(228, 113, 113),pink);
+     padding: 100px 100px;
+}
+
+.section-three{
+              background-image: linear-gradient(120deg,rgb(76, 226, 76),rgb(126, 235, 126));
+              padding: 100px 100px;
+}
+
+.section-four{
+          background-image: linear-gradient(120deg,rgb(191, 186, 236),rgb(158, 161, 184));
+          padding: 100px 100px;
+}
+
+.section-five{
+           background-image: linear-gradient(120deg,rgb(196, 202, 104),rgb(216, 235, 113));
+           padding: 100px 100px;
+           margin: 10px  100px; 
+}
+
+@media (max-width:800px)
+{
+
+    .section-one, .section-two,.section-three,.section-four,.section-five,.width-one,.width-two{ width: 100%;margin: 0;padding: 30px 50px;}
+         h3,h1{font-size: 1.5em;}
+         h2{font-size: 2em;}
+         .btn{width: 100%;margin: 10px 0px;padding: 12px;font-weight: 600;}
+         img{width:calc(200%-50%);margin: -40px;padding: 0;}
+}
+
+
+.footer h5 {
+       width: 100%;
+       background: #333;
+       padding: 40px 20px;
+       text-align: center;
+       color: orange;
+       letter-spacing: 3px;
+}
