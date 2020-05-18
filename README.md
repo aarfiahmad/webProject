@@ -1,2 +1,3 @@
 # webProject
-The  simple and beginner level project designed and devloped by use of html,css,vanilla-javascript. 
+
+The  simple and beginner level project Designed and Devloped by use of HTML,CSS,PLAIN-JAVASCRIPT. 
