@@ -1,0 +1,59 @@
+.cta{
+  
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 200px 50px 0 50px;
+
+}
+
+body{
+	 background:#333;
+}
+
+.display1{
+
+     padding: 30px;
+     background-color: red;
+    
+}
+.display2{
+    padding: 30px;
+    background-color: green;
+  
+        
+}
+
+.display3{
+    padding: 30px;
+    background-color: yellow;
+   
+        
+}
+
+.display4{
+    padding: 30px;
+    background: orange;
+       
+}
+
+.display{
+        outline: 12px solid slateblue;
+        outline-offset: 12px;
+        cursor: pointer;
+        width: 50px;
+        height: 50px;
+		font-size:20px;
+		font-weight:600;
+		text-transform:uppercase;
+		letter-spacing:1.5px;
+		color:#333;
+}
+
+#msg{
+      padding:  40px;
+      margin: 10px;
+      color: ;
+      background-color: blue;
+}
