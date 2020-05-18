@@ -1,2 +1,2 @@
 # webProject
-The  Web Pages designed and devloped by aarfiahmed. 
+The  simple and beginner level project designed and devloped by use of html,css,vanilla-javascript. 
