@@ -1,0 +1,135 @@
+* {
+  margin:0;
+  padding:0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  color: #333;
+  display: flex;
+  justify-content: center;
+  margin-top: 20%;
+  background-color: #333;
+}
+
+ul{
+    list-style: none;
+   
+   
+    
+}
+
+li{
+     display: inline;
+     font-size: 4.5em;
+     position: relative;
+     font-weight: 700;
+     letter-spacing: .3em;
+    
+}
+
+
+li:nth-child(1){
+
+  animation: one .9s linear forwards;
+   animation-delay: .1s;  
+   color: rebeccapurple; 
+}
+
+@keyframes  one{
+
+     0%{ left: -3330px;}
+     100%{ left: 20px;color: yellow;}
+}
+
+
+
+
+li:nth-child(2){
+
+  animation:  two .9s linear forwards;
+  animation-delay: .2s;  
+  color: lightseagreen; 
+}
+
+
+@keyframes  two{
+
+  0%{ top: -1000px;}
+  100%{ top: 0px;color: #1cd3d3;}
+}
+
+
+
+li:nth-child(3){
+
+  animation:  thr .9s linear forwards;
+  animation-delay: .3s;  
+  color: yellow; 
+  
+}
+
+
+@keyframes  thr{
+
+  0%{ bottom: -1000px;transform: skew(45deg);}
+  100%{ bottom: 0px;color: #59e41b;}
+}
+
+
+
+li:nth-child(4){
+
+  animation:  for .9s linear forwards;
+  animation-delay: .2s;
+  color: teal;   
+  
+}
+
+
+
+@keyframes  for{
+
+  0%{ top: -1000px;}
+  100%{ top: 0px;color: #ff00cb;}
+}
+
+
+li:nth-child(5){
+
+  animation:  fiv .9s linear forwards;
+  animation-delay: .3s;  
+  color: green; 
+}
+
+
+
+@keyframes  fiv{
+
+  0%{ bottom: -1000px;transform: skew(45deg);}
+  100%{ bottom: 0px;color: #ff2400;}
+}
+
+
+
+
+li:nth-child(6){
+
+  animation:  six .9s linear forwards;
+  animation-delay: .4s;  
+  color: orangered; 
+  
+}
+
+
+
+@keyframes  six{
+
+  0%{ right: -1000px;}
+  100%{ right: 0px;color: #00ff34;}
+}
+
+
+
+
