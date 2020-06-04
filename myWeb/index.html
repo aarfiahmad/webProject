@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Kevin Powel || Design Course.</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- <link rel="stylesheet" href="css/bootstrap.min.css"> -->
+</head>
+
+<body>
+     <div class="welcome"> 
+           <div class="toggle"> 
+            <h2 style="color: #aaa;font-size: 3.5em;font-weight: 800;cursor: pointer;"   onclick="opennav()"> 
+              &equiv; </h2>
+                 </div>
+  
+           <div class="sidenav"  id="mysidenav">
+            <a href="javascript:void(0);"  onclick="closenav()"  class="close"> &cross;</a>
+            
+              <a href="#" class="btn-g">Home</a>
+              <a href="#" class="btn-g"> About</a>
+              <a href="#" class="btn-g"> Portfolio</a>
+              <a href="#" class="btn-g">Contact</a>
+          </div>
+          
+         <h3> welcome to my
+            <span> Portfolio</span>
+          </h3>
+     </div>
+
+     <div class="intro">
+       <div class="intro-left"><img src="img/welcome-01.png" alt=""> </div>
+       <div class="intro-middle">  <h2> Making it  Happen</h2> 
+       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, praesentium cum, corrupti autem adipisci, a quaerat ex blanditiis tenetur illum nihil possimus dolores earum optio quasi atque minima voluptatibus quis.</p>  
+      </div>
+       <div class="intro-right"> <img src="img/welcome-02.png" alt=""></div>
+     </div>
+
+       <section id="about" class="about-me">
+       <img src="img/joe-portfolio.png" class="about-img" alt="">   
+       <h1 class="about-title"> My Portfolio</h1>
+       <h2 class="about-subtitle"> Designer & Devloper</h2>
+       <div class="about-text">
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem quibusdam repellendus assumenda sit qui natus incidunt consectetur fuga. Assumenda magnam quam optio eveniet. Consectetur architecto quam, voluptatibus ut numquam perferendis?</p>
+
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt deserunt explicabo modi quam hic amet architecto rem rerum sapiente. Dolores animi temporibus illo? Amet aliquam sed soluta corrupti, quae accusamus!</p>
+       </div>
+      
+      </section>
+
+       <footer>
+          <p> copyrights by  <strong>Aarfi Ahmed</strong> 2020</p>
+       </footer>
+
+  
+     <script>
+
+      function   closenav()
+      {
+          document.getElementById("mysidenav").style.width="0px";
+          
+      } 
+
+      function    opennav()
+      {
+          document.getElementById("mysidenav").style.width="100%";
+          
+      } 
+
+     </script>
+      
+
+     
+
+  
+  
+
+ 
+</body>
+
+</html>
