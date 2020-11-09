@@ -2,6 +2,7 @@
 
 The  simple and beginner level project Designed and Devloped by use of HTML,CSS,PLAIN-JAVASCRIPT. 
 
+[doen.netlify.com](other_file.md)
 
 [doen.netlify.com]
 [doen1.netlify.com]
